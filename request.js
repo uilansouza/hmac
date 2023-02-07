@@ -1,3 +1,4 @@
+//The Script below must be pasted in the Postman tool in the pre script tab
 let crypto =require("crypto-js");
 const uri = pm.environment.get("HOST_HMAC") + '/auth/hmac';
 const encodedUri = uri;
